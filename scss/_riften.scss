@@ -1,0 +1,293 @@
+.bg-riften{
+
+    background-image: url(../assets/bg-riften.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    
+
+}
+
+
+
+
+.section-riften{
+    display: flex;
+    justify-content: center;
+    
+
+    .article-1-riften{
+
+        display: flex;
+        flex-direction: column;        
+        align-items: center;
+        border-right: 3px solid black;
+        border-left: 3px solid black;
+        width: 80%;
+        background-color: rgba(248, 248, 155, 0.822);
+        border-radius: 5px;
+
+
+
+        .h1-riften{
+
+            font-family: $font_oswald;
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            margin-top: 1rem;
+            border: 2px solid black;
+            width: 40%;
+
+
+        }
+
+        .img-riften{
+
+            height: 700px;
+            padding-right: 2rem;
+            padding-left: 2rem;
+
+            transition: 0.3s;
+
+            &:hover{
+
+                background-color: rgb(180, 180, 180);
+                
+
+            }
+
+            
+
+        }
+
+        .img-riften-map{
+
+            padding-right: 2rem;
+            padding-left: 2rem;
+
+            transition: 0.3s;
+
+            &:hover{
+
+
+                background-color: rgb(180, 180, 180);
+            }
+
+        }
+
+        .p-riften{
+            text-align: center;
+
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+            font-family: $font_oswald;
+            font-size: 24px;
+
+        }
+
+    }
+
+
+}
+
+
+// Responsive
+
+
+@media (max-width:480px) {
+    
+.bg-riften{
+
+    background-size: auto;
+
+}
+
+    .section-riften{
+
+
+        .article-1-riften{
+
+            .img-riften-map{
+
+                height: 200px;
+
+            }
+
+
+            .img-riften{
+
+                height: 150px;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+@media (min-width:480px) and (max-width:540px) {
+
+    .bg-riften{
+
+        background-size: auto;
+    
+    }
+    
+        .section-riften{
+    
+    
+            .article-1-riften{
+    
+                .img-riften-map{
+    
+                    height: 300px;
+    
+                }
+    
+    
+                .img-riften{
+    
+                    height: 220px;
+    
+                }
+    
+            }
+    
+        }
+    
+    
+}
+
+@media (min-width:540px) and (max-width:780px) {
+    
+    .bg-riften{
+
+        background-size: auto;
+    
+    }
+    
+        .section-riften{
+    
+    
+            .article-1-riften{
+    
+                .img-riften-map{
+    
+                    height: 450px;
+    
+                }
+    
+    
+                .img-riften{
+    
+                    height: 300px;
+    
+                }
+    
+            }
+    
+        }
+
+}
+
+@media (min-width:781px) and (max-width:820px) {
+
+    .bg-riften{
+
+        background-size: auto;
+    
+    }
+    
+        .section-riften{
+    
+    
+            .article-1-riften{
+    
+                .img-riften-map{
+    
+                    height: 450px;
+    
+                }
+    
+    
+                .img-riften{
+    
+                    height: 330px;
+    
+                }
+    
+            }
+    
+        }
+
+
+}
+
+@media (min-width:821px) and (max-width:1024px) {
+    
+    .bg-riften{
+
+        background-size: auto;
+    
+    }
+    
+        .section-riften{
+    
+    
+            .article-1-riften{
+    
+                .img-riften-map{
+    
+                    height: 600px;
+    
+                }
+    
+    
+                .img-riften{
+    
+                    height: 400px;
+    
+                }
+    
+            }
+    
+        }
+
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    
+    .bg-riften{
+
+        background-size: auto;
+    
+    }
+    
+        .section-riften{
+    
+    
+            .article-1-riften{
+    
+                .img-riften-map{
+    
+                    height: 700px;
+    
+                }
+    
+    
+                .img-riften{
+    
+                    height: 530px;
+    
+                }
+    
+            }
+    
+        }
+}
+
+

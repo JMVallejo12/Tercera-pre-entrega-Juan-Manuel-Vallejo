@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Elder Scrolls V: Skyrim. Información y características del juego.">
+    <meta name="keywords" content="Skyrim, The Elder Scrolls, Cauce Boscoso, Carrera Blanca, Riften, Dragones, Trailer de Skyrim, Skyrim caracteristicas">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Inicio | SkyrimJarls - Web creada por fans y para fans</title>
+</head>
+<body class="bg-index grid-container-index">
+       
+<!-- Header -->
+<header class="header">
+    <!-- Nav bar utilizando elementos de boostrap -->
+    <nav class="nav-bar">
+        <!-- Contenedor de la parte izquierda -->
+        <div class="nav-left-container">
+            <a class="btn-home" href="./index.html">Inicio</a>
+        </div>
+
+
+        <!-- Contenedor de la parte derecha del nav -->
+        <div class="nav-right-container">
+            <!-- Comarcas -->
+            <div class="dropdown nav-dropdown">
+                <button class="btn btn-secondary dropdown-toggle nav-btn-style" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i><img class="icon-nav" height="30" width="20" src="./assets/index-icon-menu.png" alt="Icono de Skyrim"></i>
+                Comarcas
+                </button>
+                <ul class="dropdown-menu drop-menu-style">
+                <li><a class="dropdown-item" href="./pages/carrera-blanca.html">Carrera Blanca</a></li>
+                
+                </ul>
+            </div>
+
+            <!-- Ciudades -->
+            <div class="dropdown nav-dropdown">
+                <button class="btn btn-secondary dropdown-toggle nav-btn-style" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i><img class="icon-nav" height="30" width="20" src="./assets/index-icon-menu.png" alt="Icono de Skyrim"></i>
+                    Ciudades
+                </button>
+                <ul class="dropdown-menu drop-menu-style">
+                    <li><a class="dropdown-item" href="./pages/soledad.html">Soledad</a></li>
+                    <li><a class="dropdown-item" href="./pages/riften.html">Riften</a></li>
+                
+                </ul>
+            </div>
+
+            <!-- Pueblos -->
+            <div class="dropdown nav-dropdown">
+                <button class="btn btn-secondary dropdown-toggle nav-btn-style" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i><img class="icon-nav" height="30" width="20" src="./assets/index-icon-menu.png" alt="Icono de Skyrim"></i>
+                    Pueblos
+                </button>
+                <ul class="dropdown-menu drop-menu-style">
+                <li><a class="dropdown-item" href="./pages/cauce-boscoso.html">Cauce Boscoso</a></li>
+                
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- Section 1 texto y boton de comprar -->
+
+<section id="top" class="section-1">
+
+    <div class="logo-container">
+        <!-- Se ajusta el logo desde el html porque no me funciono desde el css -->
+        <a href="#char"><img class="logo-img" height="250" src="./assets/Skyrim-logo.png" alt="Logo de The Elder Scrolls V: Skyrim"></a>
+        
+
+    </div>
+
+    <!-- Texto con el boton de comprar -->
+    <article class="article-1-index">
+
+        <!-- Texto -->
+        <p class="p-index">Prepárte para iniciar una nueva aventura, en un mundo nórdico lleno de aventuras, tesoros, enemigos, magos poderosos y dragones. Incrementa tus habilidades y siente el poder recorriendo tu cuerpo, la sangre de dragón está en tu interior otorgándote un poder incalculabe. Salva el mundo de los dragones y derrota a Alduin.</p>
+
+        <!-- Boton de comprar -->
+        <a class="btn-buy" target="_blank" href="https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/">Comprar</a>
+        
+
+    </article>  
+
+</section>
+
+
+
+<!-- Section 2 con algunas caracteristicas del juego -->
+<section id="char" class="section-2">
+
+    <h1 class="h1-index">CARACTERÍSTICAS</h1>
+
+    <div class="section-2-flex-container">
+        
+        <!-- Caracteristica 1 -->
+        <article class="card-section-2">
+            <h2 class="h2-section-2">CREACIÓN DE PERSONAJE</h2>
+            <img class="img-char" src="./assets/character-creator.jpg" alt="Foto de el sistema de creación de personaje de Skyrim">
+            <p class="p-char">Un menú increíble que te permitirá editar tu personaje, eligiendo varias razas del mundo de The Elder Scrolls: V, todas con su propia historia.</p>
+        </article>
+
+        <!-- Caracteristica 2 -->
+        <article class="card-section-2">
+            <h2 class="h2-section-2">EXPLORA EL MUNDO</h2>
+           <img src="./assets/dungeon.jpg" alt="Foto de una estatua en una cueva de Skyirm" class="img-char">
+            <p class="p-char">Exploar el mundo de Skyrim, explorando las cuevas en las que podrás encontrar tesoros y enemigos poderosos para aumentar tus habilidades.</p>
+        </article>
+
+        <!-- Caracteristica 3 -->
+        <article class="card-section-2">
+            <h2 class="h2-section-2">SUBE HABILIDADES</h2>
+            <img src="./assets/park-tree.jpg" alt="Foto de árbol de habilidades de Skyrim" class="img-char">
+            <p class="p-char">Sube tus diferentes habilidades, enfocando el rol que le quieras dar a tu personaje, ya sea mago, guerrero o ladrón, entre otros roles que puedes probar.</p>
+        </article>
+
+        <!-- Caracteristica 4 -->
+        <article class="card-section-2">
+            <h2 class="h2-section-2">ENFRÉNTATE A DRAGONES</h2>
+            <img src="./assets/dragon.jpg" alt="Foto de un dragon en skyrim" class="img-char">
+            <p class="p-char">Mientras exploras en el mundo de Skyrim, vas a toparte con diferentes dragones, algunos únicos, a los que podrás enfrentar y derrotar, usando todo tu poder.</p>
+        </article>
+
+    </div>
+    
+
+</section>
+
+
+<!-- Section 3 con el trailer de yt -->
+<section class="section-3">
+    <article class="article-section-3">
+
+        <h2 class="h2-section-3">TRAILER</h2>
+
+        <iframe class="iframe-index" src="https://www.youtube.com/embed/JSRtYpNRoN0?si=3kUpEd_dUfLfeW8K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    </article>
+</section>
+
+
+<!-- Section 4 con un formulario para enviar una sugerencia o comentario -->
+
+<section class="section-4">
+
+    <article class="article-form">
+
+        <h2 class="h2-form">DEJA TU COMENTARIO</h2>
+
+        <form class="form-index" action="" method="">
+            <label class="label-style" for="nombre">Nombre de Usuario:</label>
+            <input class="input-style" type="text" id="nombre" name="nombre" required>
+    
+            <label class="label-style" for="email">Correo Electrónico:</label>
+            <input class="input-style" type="email" id="email" name="email" required>
+    
+            <label class="label-style" for="comentario">Comentario:</label>
+            <textarea class="input-style" id="comentario" name="comentario" rows="4" cols="50" required></textarea>
+            
+            <div class="flex-submit-container">
+                <input class="btn-form-style" type="submit" value="Enviar comentario">
+            </div>
+            
+        </form>
+
+    </article>
+
+</section>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+
+    <!-- Logo del footer -->
+    <a href="#top"><img class="logo-footer" src="./assets/logo-footer.png" alt="Logo del juego Skyrim"></a>
+    
+    <div class="social-container"></div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

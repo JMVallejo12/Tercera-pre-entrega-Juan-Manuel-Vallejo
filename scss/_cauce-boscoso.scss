@@ -1,0 +1,302 @@
+.bg-cauce-boscoso{
+
+    background-image: url(../assets/bg-cauce-boscoso.jpg);
+
+}
+
+.space-bar{
+
+    height: 13rem;
+
+
+}
+
+.section-1-cauce{
+
+    
+
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    
+
+
+    .article-1-cauce{
+
+        background-image: url(../assets/bg-text-riverwood.jpeg);
+        background-repeat: no-repeat;
+        
+        width: 60%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 2rem;
+
+        border-radius: 10px;
+
+        height: fit-content;
+        .h1-cauce{
+
+            font-family: $font_oswald;
+            color: black;
+
+        }
+
+        .p-cauce{
+
+            font-family: $font_oswald;
+            font-size: 24px;
+            color: black;
+            // width: 40%;
+    
+        }
+
+        .img-cauce-map{
+
+            height: 400px;
+
+        }
+
+
+
+
+    
+        
+        
+    }
+
+
+
+}
+
+.section-2-cauce{
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;    
+
+    .article-3-cauce{
+
+        height: max-content;
+        background-color: rgba(163, 155, 79, 0.719);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+
+        .h2-galeria{
+
+            border-bottom: 3px solid black;
+
+        }
+
+    }
+
+
+    .article-2-cauce{
+        display: flex;
+        flex-wrap: wrap;
+
+        background-image: url(../assets/bg-text-riverwood.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        justify-content: center;
+        
+
+        
+
+        width: 90%;
+
+        .img-cauce-galeria{
+
+            height: 400px;
+            margin: 1rem;
+            padding: 1rem;
+
+            z-index: 20;
+
+            box-shadow: -1px 0px 46px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: -1px 0px 46px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: -1px 0px 46px 0px rgba(0,0,0,0.75);
+
+        }
+
+
+
+    }
+
+}
+
+// Responsive
+
+
+@media (max-width:480px) {
+
+    .section-1-cauce{
+
+        .article-1-cauce{
+
+            background-repeat: repeat;
+            width: 95%;
+            
+
+
+            .img-cauce-map{
+
+                height: 250px
+
+            }
+
+
+        }
+
+    }
+
+
+    .section-2-cauce{
+
+        .article-2-cauce{
+
+            .img-cauce-galeria{
+
+                height: 200px;
+
+            }
+
+        }
+
+    }
+
+    
+}
+
+@media (min-width:480px) and (max-width:780px) {
+    
+    .section-1-cauce{
+
+        .article-1-cauce{
+
+            background-repeat: repeat;
+            width: 95%;
+            
+
+
+            .img-cauce-map{
+
+                height: 525px
+
+            }
+
+
+        }
+
+    }
+
+
+    .section-2-cauce{
+
+        .article-2-cauce{
+
+            .img-cauce-galeria{
+
+                height: 325px;
+
+            }
+
+        }
+
+    }
+
+
+}
+
+@media (min-width:780px) and (max-width:1024px) {
+    
+
+    .section-1-cauce{
+
+        .article-1-cauce{
+
+            background-repeat: repeat;
+            width: 95%;
+            
+
+
+            .img-cauce-map{
+
+                height: 525px
+
+            }
+
+
+        }
+
+    }
+
+
+    .section-2-cauce{
+
+        .article-2-cauce{
+
+            .img-cauce-galeria{
+
+                height: 450px;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+    
+    .section-1-cauce{
+
+        .article-1-cauce{
+
+            background-repeat: repeat;
+            width: 95%;
+            
+
+
+            .img-cauce-map{
+
+                height: 560px
+
+            }
+
+
+        }
+
+    }
+
+
+    .section-2-cauce{
+
+        .article-2-cauce{
+
+            .img-cauce-galeria{
+
+                height: 500px;
+
+            }
+
+        }
+
+    }
+
+
+
+}

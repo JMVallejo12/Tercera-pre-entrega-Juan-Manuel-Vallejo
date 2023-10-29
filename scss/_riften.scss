@@ -23,7 +23,7 @@
         border-right: 3px solid black;
         border-left: 3px solid black;
         width: 80%;
-        background-color: rgba(248, 248, 155, 0.822);
+        background-color: map-get($colores_fondo , bg-riften );
         border-radius: 5px;
 
 

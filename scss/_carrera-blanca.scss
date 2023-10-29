@@ -1,11 +1,11 @@
 
 .bg-carrera{
-
-    background-color: rgb(204, 204, 133);
+    
+    background-color: map-get($colores_fondo, bg-carrera-blanca );
 
     .section-1-carrera{
 
-        // border: 1px solid black;
+        
         padding-top: 10rem;
         height: fit-content;
         padding-left: 2rem;
@@ -13,7 +13,7 @@
         padding-bottom: 2rem;
     
         display: flex;
-        // flex-wrap: wrap;
+        
     
         background-image: url(../assets/whiterun-bg.webp);
     
@@ -27,7 +27,7 @@
     
             .h1-carrera{
                 font-family: $font_oswald;
-                // padding-top: 20rem;
+                
             }
     
             .img-carrera-map{
